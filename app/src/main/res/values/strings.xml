@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sem_11_MVVM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="button_to_click">Sign in</string>
+</resources>
