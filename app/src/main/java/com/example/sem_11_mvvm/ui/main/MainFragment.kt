@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import com.example.sem_11_mvvm.R
 import com.example.sem_11_mvvm.databinding.FragmentMainFragmentBinding
 import com.google.android.material.snackbar.Snackbar
@@ -43,5 +45,6 @@ class MainFragment : Fragment() {
                         Snackbar.make(requireView(), message, Snackbar.LENGTH_SHORT).show()
                     }
             }
+
     }
 }
